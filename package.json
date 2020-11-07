@@ -23,5 +23,12 @@
     "@frontity/tiny-router": "^1.2.2",
     "@frontity/html2react": "^1.4.0",
     "frontity-chakra-theme": "./packages/frontity-chakra-theme"
+  },
+  "devDependencies": {
+    "cypress": "^5.5.0",
+    "cypress-cucumber-preprocessor": "^4.0.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
   }
 }
